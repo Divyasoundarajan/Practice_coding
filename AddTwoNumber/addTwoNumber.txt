@@ -1,0 +1,10 @@
+Addition of two numbers: 
+#include<stdio.h>
+  int main()
+  int A = 45;
+  int B = 22;
+  int sum;
+  sum = A+B;
+ printf("Add of to numbers = %d \n",sum);
+return 0;
+}

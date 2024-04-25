@@ -1,0 +1,11 @@
+Multiplication table
+#include<stdio.h>
+void main(){
+int num, res;
+printf("Enter a number: ");
+scanf("%d",&num);
+for(int i=1; i <= 10; i++) {
+res = num*i;
+printf("%d X %d = %d\n",num, i, res);
+}
+}

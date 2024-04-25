@@ -1,0 +1,9 @@
+fahrenheit to celsius:
+#include<stdio.h>
+ int main()
+{
+float f = 90.0, c;
+c = (f32)*5/9;
+printf("Temperature in c: %.2f\n", c);
+return 0;
+}
